@@ -5,7 +5,7 @@ from emukit.core.interfaces import IModel
 from emukit.core.acquisition import Acquisition
 
 
-class Max_GP(Acquisition):
+class Max_G(Acquisition):
 
     def __init__(self, model: IModel) -> None:
         """
