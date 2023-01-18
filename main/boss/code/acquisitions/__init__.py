@@ -1,1 +1,1 @@
-from .max_gp_acquisition impor Max_GP
+from .max_gp_acquisition import JES
