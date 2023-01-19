@@ -27,7 +27,7 @@ from math import pi
 import numpy as np
 from scipy import stats
 
-
+"""
 def upper_confidence_bound(mu: np.array, var: np.array, beta: float):
     return mu + np.sqrt(beta * var)
 
@@ -39,7 +39,7 @@ def expected_improvement(mu: np.array, var: np.array, y_best: float):
 
     # Bound EI at some small but non-zero value (corresponds to about 10 st devs)
     return np.maximum(ei, 1e-30)
-
+"""
 
 r"""
 Acquisition functions for joint entropy search for multi-objective Bayesian
